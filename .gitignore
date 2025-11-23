@@ -8,6 +8,23 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+env/
+
+# 模型檔案和檢查點
+*.safetensors
+*.bin
+*.pt
+*.pth
+checkpoints/
+models/
+*.ckpt
+
+# 資料集檔案
+*.csv
+*.tsv
+data/
+datasets/
 
 # 排除的檔案
 dataset.py
